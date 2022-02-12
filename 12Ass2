@@ -1,0 +1,21 @@
+#Write a program to compare two numbers are
+1.equal.
+2.Not equal.
+3.one num is greater than another one.
+4.one num is smaller than another one.
+
+num1=int(input("Number 1 : "))
+num2=int(input("Number 2 : "))
+if num1>num2:
+    print("Number1 is greater than Number2")
+elif num1<num2:
+    print("Number1 is less than Number2")
+elif num1!=num2: 
+    print("Number1 is equal to Number2")
+ 
+else: 
+    print("Number1 is not equal to number2")
+    o/p:
+    Number 1 : 55
+Number 2 : 45
+Number1 is greater than Number2
